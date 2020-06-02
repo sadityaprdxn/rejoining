@@ -100,7 +100,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 58%; 
   margin: 0 auto;
 }
 /*=================================
@@ -212,6 +212,7 @@ header .wrapper{
 }
 
 .banner .slide div{
+  box-sizing: border-box;
   position: absolute;
   top: 62%;
   left: 50%;
@@ -259,11 +260,23 @@ h2 + span{
   transition: all 0.2s ease-in-out;
 }
 
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16.5px;
+  font-weight: 700;
+  color: #3C3B3B;
+  padding: 7.1% 0 0;
+}
 
-
-
-
-
+.help p{
+  font-size: 10.2px;
+  color: rgba(0,0,0,0.7);
+  font-weight: 600;
+  padding: 4.6% 0;
+  text-align: center;
+  line-height: 21px;
+}
 
 /*=================================
   main styling ends here
