@@ -352,6 +352,28 @@ h3{
   padding-bottom: 1%;
 }
 
+.affiliation{
+  background-color: #F3F3F3;
+}
+
+.affiliation h3{
+  padding-top: 8%;
+}
+
+.affiliation ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5% 0 7.6%;
+}
+
+.affiliation li{
+  padding-bottom: 3%;
+}
+
+.get-in-touch{
+  background-color: #003E59;
+}
 /*=================================
   main styling ends here
 =================================*/
@@ -361,7 +383,9 @@ h3{
 =================================*/ 
 
 
-
+footer{
+  padding-top: 50%;
+}
 
 
 
