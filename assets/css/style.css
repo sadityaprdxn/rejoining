@@ -582,7 +582,7 @@ footer p { margin: 30px 0 40px; }
 .footer-social-icons .facebook::before,
 .footer-social-icons .twitter::before,
 .footer-social-icons .instagram::before,
-.footer-social-icons .linkedin::before {
+.footer-social-icons .linked-in::before {
   color: #ededed;
   float: right;
   font: 500 23px "Font Awesome 5 Brands";
