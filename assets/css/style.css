@@ -486,13 +486,110 @@ button{
   footer styling starts here
 =================================*/ 
 
-
-footer{
-  padding-top: 50%;
+footer {
+  background: #3c3b3b;
+  color: #ededed;
+  text-align: center;
 }
 
+footer .wrapper { width: 58%; }
 
+footer a,
+footer p { 
+  color: #ededed;
+  font-size: 12px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
 
+footer h5 {
+  padding-top: 64px;
+  margin-bottom: 20px;
+  font: 600 18px sans-serif;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.company-info { display: -webkit-box; display: flex; }
+
+.getintouch {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.information {
+  width: 25%;
+  margin-left: 6.5%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.getintouch ul {
+  width: 73%;
+  margin-left: 10%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  text-align: left;
+}
+
+.getintouch li,
+.information li { padding: 0 0 6px; }
+
+.getintouch a,
+.getintouch address {
+  font-size: 11px;
+  line-height: 1.5;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.getintouch a::before,
+.getintouch address::before {
+  float: left;
+  font-family: "fontAwesome"; 
+  position: absolute;
+  left: -15px;
+  text-indent: 0;
+}
+
+.information ul {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  text-align: left;
+}
+
+.telephone::before { content: '\f095'; }
+.infoMail::before { content: '\f0e0'; }
+.Co-Address::before { content: '\f041'; }
+footer p { margin: 30px 0 40px; }
+.footer-social-icons { padding-bottom: 20px; }
+.footer-social-icons a { padding: 3px; }
+
+.footer-social-icons .facebook::before,
+.footer-social-icons .twitter::before,
+.footer-social-icons .instagram::before,
+.footer-social-icons .linkedin::before {
+  color: #ededed;
+  float: right;
+  font: 500 23px "Font Awesome 5 Brands";
+  text-indent: 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
 
  /*=================================
   footer styling ends here
