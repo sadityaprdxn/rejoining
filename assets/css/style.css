@@ -84,7 +84,7 @@ sub { bottom: -.25em; }
 /*for all*/
 body {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Montserrat';
 }
 
 a { 
@@ -107,10 +107,93 @@ li {
   Header styling starts here
 =================================*/
 
+header{
+  padding: 0.65% 0;  
+}
+
+header .wrapper{
+  width: 97%;
+}
+
+.hamburger{
+  display: none;
+}
+
+header .wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
 
 
+.facebook,
+.instagram,
+.twitter,
+.linked-in{
+  text-indent: -9999px;
+  position: relative;
+}
 
+.facebook::before{
+  content:"\f082";
+}
 
+.instagram::before{
+  content:"\f16d";
+}
+
+.twitter::before{
+  content:"\f099";
+}
+
+.linked-in::before{
+  content:"\f0e1";
+}
+
+.facebook::before,
+.instagram::before,
+.twitter::before,
+.linked-in::before{
+  font-family: "fontAwesome";
+  text-indent: 0;
+  float: right;
+  font-size: 11px;
+  color: #F46239;
+  transition: all 0.2s ease-in-out;
+  padding: 2px;
+}
+
+.facebook:hover::before,
+.instagram:hover::before,
+.twitter:hover::before,
+.linked-in:hover::before{
+  transform: scale(1.5);
+}
+
+.navbar a{
+  color: #5D5D5D;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 7px;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.navbar a.active{
+  color: #F46239;
+}
+
+.navbar li{
+  margin: 0 3px;
+}
+
+.navbar a:hover{
+  background-color: #F46239;
+  color: #FFF;
+}
 
 /*=================================
   Header styling ends here
