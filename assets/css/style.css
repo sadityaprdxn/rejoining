@@ -286,6 +286,7 @@ h3{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-bottom: 6%;
 }
 
 .services ul li{
@@ -302,6 +303,32 @@ h3{
   color: #5D5D5D;
   text-transform: uppercase;
   padding-top: 5%;
+}
+
+.latest-work{
+  background-color: #EFEFEF;
+}
+
+.latest-work .wrapper{
+  width: 100%;
+}
+.latest-work h3{
+  padding-top: 4.7%;
+}
+
+.latest-work h3 + a{
+  display: block;
+  margin: 1.6% 40% 3.5%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 700;
+  color: #3C3B3B;
+}
+
+.portfolio-slider{
+  display: flex;
+  justify-content: flex-start;
 }
 
 /*=================================
