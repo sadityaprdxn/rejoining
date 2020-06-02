@@ -331,6 +331,27 @@ h3{
   justify-content: flex-start;
 }
 
+.work-with{
+  background-color: #F46239;
+}
+
+.work-with h3{
+  color: #FFF;
+  font-weight: 500;
+  padding-top: 8%;
+}
+
+.work-with ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3% 0 6.7%;
+}
+
+.work-with li{
+  padding-bottom: 1%;
+}
+
 /*=================================
   main styling ends here
 =================================*/
