@@ -85,7 +85,7 @@
               <a href="#FIXME" title="Read More" class="read-more">read more</a>
             </li>
             
-            <!-- <li class="slide">
+            <li class="slide">
               <figure><img src="https://via.placeholder.com/1350x380" alt="Banner Image"></figure>
               <div>
                 <h2>sunlife</h2>
@@ -101,7 +101,7 @@
                 <span>Improved CPC by 2.2% and CTR by 28%</span>
               </div>
               <a href="#FIXME" title="Read More" class="read-more">read more</a>
-            </li> -->
+            </li>
           </ul>
         </div>
       </section>
@@ -171,6 +171,10 @@
               <span>all services</span>
             </li>
           </ul>
+          <div class="modal">
+            <figure><img src="" alt="Modal Image"></figure>
+            <a href="#FIXME" class="close">close</a>
+          </div>
         </div>
       </section>
       <!-- services section end here -->
@@ -309,7 +313,7 @@
             <div class="left-pannel">
             <div class="form-group">
               <label>What are you looking for?</label>
-              <input  id="enquiry" type="text" placeholder="Business enquiry">
+              <input  id="enquiry" type="text" placeholder="Business enquiry" data-regex="enquiry_regex">
               <span>please enter something</span>
             </div>
 
@@ -335,7 +339,7 @@
           <div class="right-pannel">
             <div class="form-group">
               <label>Your Message</label>
-              <textarea id="client-message"></textarea>
+              <textarea id="client-message" data-regex="message_regex"></textarea>
               <span>please fill the field properly</span>
             </div>
 
